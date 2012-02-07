@@ -2,6 +2,8 @@
 
 @implementation MainViewController
 
+@synthesize infoButton = infoButton_;
+
 #pragma mark - View lifecycle
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

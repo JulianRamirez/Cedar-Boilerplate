@@ -24,6 +24,11 @@
 		B9F6753F14E0F503007B93CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6753C14E0F503007B93CE /* main.m */; };
 		B9F6754014E0F503007B93CE /* UISpecs-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9F6753D14E0F503007B93CE /* UISpecs-Info.plist */; };
 		B9F6754114E0F592007B93CE /* libCedar-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F6750514E0F323007B93CE /* libCedar-StaticLib.a */; };
+		B9F6754614E0FD13007B93CE /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6749614E0EE42007B93CE /* FlipsideViewController.m */; };
+		B9F6754714E0FD13007B93CE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6749814E0EE42007B93CE /* MainViewController.m */; };
+		B9F6754A14E0FD84007B93CE /* MainViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9F6754914E0FD84007B93CE /* MainViewControllerSpec.mm */; };
+		B9F6754B14E0FF75007B93CE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F674A414E0EEB7007B93CE /* MainViewController.xib */; };
+		B9F6754C14E0FF79007B93CE /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F674A014E0EEB7007B93CE /* FlipsideViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +117,7 @@
 		B9F6751214E0F3F9007B93CE /* UISpecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISpecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9F6753C14E0F503007B93CE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9F6753D14E0F503007B93CE /* UISpecs-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UISpecs-Info.plist"; sourceTree = "<group>"; };
+		B9F6754914E0FD84007B93CE /* MainViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainViewControllerSpec.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,10 +259,19 @@
 		B9F6753914E0F4EE007B93CE /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				B9F6754514E0FCB6007B93CE /* Controllers */,
 				B9F6753C14E0F503007B93CE /* main.m */,
 				B9F6753D14E0F503007B93CE /* UISpecs-Info.plist */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		B9F6754514E0FCB6007B93CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6754914E0FD84007B93CE /* MainViewControllerSpec.mm */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,6 +420,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9F6754014E0F503007B93CE /* UISpecs-Info.plist in Resources */,
+				B9F6754B14E0FF75007B93CE /* MainViewController.xib in Resources */,
+				B9F6754C14E0FF79007B93CE /* FlipsideViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +444,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9F6753F14E0F503007B93CE /* main.m in Sources */,
+				B9F6754614E0FD13007B93CE /* FlipsideViewController.m in Sources */,
+				B9F6754714E0FD13007B93CE /* MainViewController.m in Sources */,
+				B9F6754A14E0FD84007B93CE /* MainViewControllerSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
