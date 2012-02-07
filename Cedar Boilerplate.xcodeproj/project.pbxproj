@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9F6746814E0ECA0007B93CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F6746714E0ECA0007B93CE /* UIKit.framework */; };
+		B9F6746A14E0ECA0007B93CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F6746914E0ECA0007B93CE /* Foundation.framework */; };
+		B9F6746C14E0ECA0007B93CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F6746B14E0ECA0007B93CE /* CoreGraphics.framework */; };
+		B9F6747214E0ECA0007B93CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9F6747014E0ECA0007B93CE /* InfoPlist.strings */; };
+		B9F6747414E0ECA0007B93CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6747314E0ECA0007B93CE /* main.m */; };
+		B9F6747814E0ECA0007B93CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6747714E0ECA0007B93CE /* AppDelegate.m */; };
+		B9F6747B14E0ECA0007B93CE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6747A14E0ECA0007B93CE /* MainViewController.m */; };
+		B9F6747E14E0ECA0007B93CE /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6747D14E0ECA0007B93CE /* FlipsideViewController.m */; };
+		B9F6748114E0ECA0007B93CE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F6747F14E0ECA0007B93CE /* MainViewController.xib */; };
+		B9F6748414E0ECA0007B93CE /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F6748214E0ECA0007B93CE /* FlipsideViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9F6746314E0ECA0007B93CE /* Cedar Boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cedar Boilerplate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F6746714E0ECA0007B93CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9F6746914E0ECA0007B93CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9F6746B14E0ECA0007B93CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9F6746F14E0ECA0007B93CE /* Cedar Boilerplate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cedar Boilerplate-Info.plist"; sourceTree = "<group>"; };
+		B9F6747114E0ECA0007B93CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9F6747314E0ECA0007B93CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9F6747514E0ECA0007B93CE /* Cedar Boilerplate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cedar Boilerplate-Prefix.pch"; sourceTree = "<group>"; };
+		B9F6747614E0ECA0007B93CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9F6747714E0ECA0007B93CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9F6747914E0ECA0007B93CE /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B9F6747A14E0ECA0007B93CE /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B9F6747C14E0ECA0007B93CE /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		B9F6747D14E0ECA0007B93CE /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		B9F6748014E0ECA0007B93CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		B9F6748314E0ECA0007B93CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9F6746014E0ECA0007B93CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F6746814E0ECA0007B93CE /* UIKit.framework in Frameworks */,
+				B9F6746A14E0ECA0007B93CE /* Foundation.framework in Frameworks */,
+				B9F6746C14E0ECA0007B93CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9F6745814E0EC9F007B93CE = {
+			isa = PBXGroup;
+			children = (
+				B9F6746D14E0ECA0007B93CE /* Cedar Boilerplate */,
+				B9F6746614E0ECA0007B93CE /* Frameworks */,
+				B9F6746414E0ECA0007B93CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9F6746414E0ECA0007B93CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6746314E0ECA0007B93CE /* Cedar Boilerplate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9F6746614E0ECA0007B93CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6746714E0ECA0007B93CE /* UIKit.framework */,
+				B9F6746914E0ECA0007B93CE /* Foundation.framework */,
+				B9F6746B14E0ECA0007B93CE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9F6746D14E0ECA0007B93CE /* Cedar Boilerplate */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6747614E0ECA0007B93CE /* AppDelegate.h */,
+				B9F6747714E0ECA0007B93CE /* AppDelegate.m */,
+				B9F6747914E0ECA0007B93CE /* MainViewController.h */,
+				B9F6747A14E0ECA0007B93CE /* MainViewController.m */,
+				B9F6747C14E0ECA0007B93CE /* FlipsideViewController.h */,
+				B9F6747D14E0ECA0007B93CE /* FlipsideViewController.m */,
+				B9F6747F14E0ECA0007B93CE /* MainViewController.xib */,
+				B9F6748214E0ECA0007B93CE /* FlipsideViewController.xib */,
+				B9F6746E14E0ECA0007B93CE /* Supporting Files */,
+			);
+			path = "Cedar Boilerplate";
+			sourceTree = "<group>";
+		};
+		B9F6746E14E0ECA0007B93CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6746F14E0ECA0007B93CE /* Cedar Boilerplate-Info.plist */,
+				B9F6747014E0ECA0007B93CE /* InfoPlist.strings */,
+				B9F6747314E0ECA0007B93CE /* main.m */,
+				B9F6747514E0ECA0007B93CE /* Cedar Boilerplate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9F6746214E0ECA0007B93CE /* Cedar Boilerplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9F6748714E0ECA0007B93CE /* Build configuration list for PBXNativeTarget "Cedar Boilerplate" */;
+			buildPhases = (
+				B9F6745F14E0ECA0007B93CE /* Sources */,
+				B9F6746014E0ECA0007B93CE /* Frameworks */,
+				B9F6746114E0ECA0007B93CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cedar Boilerplate";
+			productName = "Cedar Boilerplate";
+			productReference = B9F6746314E0ECA0007B93CE /* Cedar Boilerplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9F6745A14E0EC9F007B93CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B9F6745D14E0EC9F007B93CE /* Build configuration list for PBXProject "Cedar Boilerplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9F6745814E0EC9F007B93CE;
+			productRefGroup = B9F6746414E0ECA0007B93CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9F6746214E0ECA0007B93CE /* Cedar Boilerplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9F6746114E0ECA0007B93CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F6747214E0ECA0007B93CE /* InfoPlist.strings in Resources */,
+				B9F6748114E0ECA0007B93CE /* MainViewController.xib in Resources */,
+				B9F6748414E0ECA0007B93CE /* FlipsideViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9F6745F14E0ECA0007B93CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F6747414E0ECA0007B93CE /* main.m in Sources */,
+				B9F6747814E0ECA0007B93CE /* AppDelegate.m in Sources */,
+				B9F6747B14E0ECA0007B93CE /* MainViewController.m in Sources */,
+				B9F6747E14E0ECA0007B93CE /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9F6747014E0ECA0007B93CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9F6747114E0ECA0007B93CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9F6747F14E0ECA0007B93CE /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9F6748014E0ECA0007B93CE /* en */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		B9F6748214E0ECA0007B93CE /* FlipsideViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9F6748314E0ECA0007B93CE /* en */,
+			);
+			name = FlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9F6748514E0ECA0007B93CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9F6748614E0ECA0007B93CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9F6748814E0ECA0007B93CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cedar Boilerplate/Cedar Boilerplate-Prefix.pch";
+				INFOPLIST_FILE = "Cedar Boilerplate/Cedar Boilerplate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9F6748914E0ECA0007B93CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cedar Boilerplate/Cedar Boilerplate-Prefix.pch";
+				INFOPLIST_FILE = "Cedar Boilerplate/Cedar Boilerplate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9F6745D14E0EC9F007B93CE /* Build configuration list for PBXProject "Cedar Boilerplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F6748514E0ECA0007B93CE /* Debug */,
+				B9F6748614E0ECA0007B93CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9F6748714E0ECA0007B93CE /* Build configuration list for PBXNativeTarget "Cedar Boilerplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F6748814E0ECA0007B93CE /* Debug */,
+				B9F6748914E0ECA0007B93CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9F6745A14E0EC9F007B93CE /* Project object */;
+}
