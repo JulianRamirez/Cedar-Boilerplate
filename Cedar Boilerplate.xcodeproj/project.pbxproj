@@ -10,13 +10,14 @@
 		B9F6746814E0ECA0007B93CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F6746714E0ECA0007B93CE /* UIKit.framework */; };
 		B9F6746A14E0ECA0007B93CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F6746914E0ECA0007B93CE /* Foundation.framework */; };
 		B9F6746C14E0ECA0007B93CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F6746B14E0ECA0007B93CE /* CoreGraphics.framework */; };
-		B9F6747214E0ECA0007B93CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9F6747014E0ECA0007B93CE /* InfoPlist.strings */; };
-		B9F6747414E0ECA0007B93CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6747314E0ECA0007B93CE /* main.m */; };
-		B9F6747814E0ECA0007B93CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6747714E0ECA0007B93CE /* AppDelegate.m */; };
-		B9F6747B14E0ECA0007B93CE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6747A14E0ECA0007B93CE /* MainViewController.m */; };
-		B9F6747E14E0ECA0007B93CE /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6747D14E0ECA0007B93CE /* FlipsideViewController.m */; };
-		B9F6748114E0ECA0007B93CE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F6747F14E0ECA0007B93CE /* MainViewController.xib */; };
-		B9F6748414E0ECA0007B93CE /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F6748214E0ECA0007B93CE /* FlipsideViewController.xib */; };
+		B9F6749A14E0EE42007B93CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6749314E0EE42007B93CE /* AppDelegate.m */; };
+		B9F6749B14E0EE42007B93CE /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6749614E0EE42007B93CE /* FlipsideViewController.m */; };
+		B9F6749C14E0EE42007B93CE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6749814E0EE42007B93CE /* MainViewController.m */; };
+		B9F6749D14E0EE42007B93CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6749914E0EE42007B93CE /* main.m */; };
+		B9F674A614E0EEB7007B93CE /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F674A014E0EEB7007B93CE /* FlipsideViewController.xib */; };
+		B9F674A714E0EEB7007B93CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9F674A214E0EEB7007B93CE /* InfoPlist.strings */; };
+		B9F674A814E0EEB7007B93CE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F674A414E0EEB7007B93CE /* MainViewController.xib */; };
+		B9F674AA14E0EED0007B93CE /* CedarBoilerplate-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9F674A914E0EED0007B93CE /* CedarBoilerplate-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,18 +25,17 @@
 		B9F6746714E0ECA0007B93CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B9F6746914E0ECA0007B93CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B9F6746B14E0ECA0007B93CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B9F6746F14E0ECA0007B93CE /* Cedar Boilerplate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cedar Boilerplate-Info.plist"; sourceTree = "<group>"; };
-		B9F6747114E0ECA0007B93CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B9F6747314E0ECA0007B93CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B9F6747514E0ECA0007B93CE /* Cedar Boilerplate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cedar Boilerplate-Prefix.pch"; sourceTree = "<group>"; };
-		B9F6747614E0ECA0007B93CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B9F6747714E0ECA0007B93CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B9F6747914E0ECA0007B93CE /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		B9F6747A14E0ECA0007B93CE /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		B9F6747C14E0ECA0007B93CE /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
-		B9F6747D14E0ECA0007B93CE /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
-		B9F6748014E0ECA0007B93CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
-		B9F6748314E0ECA0007B93CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
+		B9F6749214E0EE42007B93CE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9F6749314E0EE42007B93CE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9F6749514E0EE42007B93CE /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		B9F6749614E0EE42007B93CE /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		B9F6749714E0EE42007B93CE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B9F6749814E0EE42007B93CE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B9F6749914E0EE42007B93CE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9F674A114E0EEB7007B93CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = FlipsideViewController.xib; sourceTree = "<group>"; };
+		B9F674A314E0EEB7007B93CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		B9F674A514E0EEB7007B93CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainViewController.xib; sourceTree = "<group>"; };
+		B9F674A914E0EED0007B93CE /* CedarBoilerplate-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CedarBoilerplate-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +55,11 @@
 		B9F6745814E0EC9F007B93CE = {
 			isa = PBXGroup;
 			children = (
-				B9F6746D14E0ECA0007B93CE /* Cedar Boilerplate */,
+				B9F6748F14E0EE0C007B93CE /* App */,
+				B9F6749E14E0EE8F007B93CE /* Resources */,
 				B9F6746614E0ECA0007B93CE /* Frameworks */,
 				B9F6746414E0ECA0007B93CE /* Products */,
+				B9F674A914E0EED0007B93CE /* CedarBoilerplate-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,31 +81,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B9F6746D14E0ECA0007B93CE /* Cedar Boilerplate */ = {
+		B9F6748F14E0EE0C007B93CE /* App */ = {
 			isa = PBXGroup;
 			children = (
-				B9F6747614E0ECA0007B93CE /* AppDelegate.h */,
-				B9F6747714E0ECA0007B93CE /* AppDelegate.m */,
-				B9F6747914E0ECA0007B93CE /* MainViewController.h */,
-				B9F6747A14E0ECA0007B93CE /* MainViewController.m */,
-				B9F6747C14E0ECA0007B93CE /* FlipsideViewController.h */,
-				B9F6747D14E0ECA0007B93CE /* FlipsideViewController.m */,
-				B9F6747F14E0ECA0007B93CE /* MainViewController.xib */,
-				B9F6748214E0ECA0007B93CE /* FlipsideViewController.xib */,
-				B9F6746E14E0ECA0007B93CE /* Supporting Files */,
+				B9F6749114E0EE29007B93CE /* UI */,
 			);
-			path = "Cedar Boilerplate";
+			path = App;
 			sourceTree = "<group>";
 		};
-		B9F6746E14E0ECA0007B93CE /* Supporting Files */ = {
+		B9F6749114E0EE29007B93CE /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				B9F6746F14E0ECA0007B93CE /* Cedar Boilerplate-Info.plist */,
-				B9F6747014E0ECA0007B93CE /* InfoPlist.strings */,
-				B9F6747314E0ECA0007B93CE /* main.m */,
-				B9F6747514E0ECA0007B93CE /* Cedar Boilerplate-Prefix.pch */,
+				B9F6749414E0EE42007B93CE /* Controllers */,
+				B9F6749214E0EE42007B93CE /* AppDelegate.h */,
+				B9F6749314E0EE42007B93CE /* AppDelegate.m */,
+				B9F6749914E0EE42007B93CE /* main.m */,
 			);
-			name = "Supporting Files";
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B9F6749414E0EE42007B93CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6749514E0EE42007B93CE /* FlipsideViewController.h */,
+				B9F6749614E0EE42007B93CE /* FlipsideViewController.m */,
+				B9F6749714E0EE42007B93CE /* MainViewController.h */,
+				B9F6749814E0EE42007B93CE /* MainViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B9F6749E14E0EE8F007B93CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6749F14E0EEB7007B93CE /* en.lproj */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B9F6749F14E0EEB7007B93CE /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B9F674A214E0EEB7007B93CE /* InfoPlist.strings */,
+				B9F674A014E0EEB7007B93CE /* FlipsideViewController.xib */,
+				B9F674A414E0EEB7007B93CE /* MainViewController.xib */,
+			);
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,9 +179,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9F6747214E0ECA0007B93CE /* InfoPlist.strings in Resources */,
-				B9F6748114E0ECA0007B93CE /* MainViewController.xib in Resources */,
-				B9F6748414E0ECA0007B93CE /* FlipsideViewController.xib in Resources */,
+				B9F674A614E0EEB7007B93CE /* FlipsideViewController.xib in Resources */,
+				B9F674A714E0EEB7007B93CE /* InfoPlist.strings in Resources */,
+				B9F674A814E0EEB7007B93CE /* MainViewController.xib in Resources */,
+				B9F674AA14E0EED0007B93CE /* CedarBoilerplate-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,38 +193,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9F6747414E0ECA0007B93CE /* main.m in Sources */,
-				B9F6747814E0ECA0007B93CE /* AppDelegate.m in Sources */,
-				B9F6747B14E0ECA0007B93CE /* MainViewController.m in Sources */,
-				B9F6747E14E0ECA0007B93CE /* FlipsideViewController.m in Sources */,
+				B9F6749A14E0EE42007B93CE /* AppDelegate.m in Sources */,
+				B9F6749B14E0EE42007B93CE /* FlipsideViewController.m in Sources */,
+				B9F6749C14E0EE42007B93CE /* MainViewController.m in Sources */,
+				B9F6749D14E0EE42007B93CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B9F6747014E0ECA0007B93CE /* InfoPlist.strings */ = {
+		B9F674A014E0EEB7007B93CE /* FlipsideViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B9F6747114E0ECA0007B93CE /* en */,
+				B9F674A114E0EEB7007B93CE /* en */,
+			);
+			name = FlipsideViewController.xib;
+			sourceTree = "<group>";
+		};
+		B9F674A214E0EEB7007B93CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9F674A314E0EEB7007B93CE /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		B9F6747F14E0ECA0007B93CE /* MainViewController.xib */ = {
+		B9F674A414E0EEB7007B93CE /* MainViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B9F6748014E0ECA0007B93CE /* en */,
+				B9F674A514E0EEB7007B93CE /* en */,
 			);
 			name = MainViewController.xib;
-			sourceTree = "<group>";
-		};
-		B9F6748214E0ECA0007B93CE /* FlipsideViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B9F6748314E0ECA0007B93CE /* en */,
-			);
-			name = FlipsideViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -253,8 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cedar Boilerplate/Cedar Boilerplate-Prefix.pch";
-				INFOPLIST_FILE = "Cedar Boilerplate/Cedar Boilerplate-Info.plist";
+				INFOPLIST_FILE = "CedarBoilerplate-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -264,8 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cedar Boilerplate/Cedar Boilerplate-Prefix.pch";
-				INFOPLIST_FILE = "Cedar Boilerplate/Cedar Boilerplate-Info.plist";
+				INFOPLIST_FILE = "CedarBoilerplate-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -290,6 +312,7 @@
 				B9F6748914E0ECA0007B93CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
