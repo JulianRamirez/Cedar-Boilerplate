@@ -29,7 +29,6 @@
 		B9F6754A14E0FD84007B93CE /* MainViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9F6754914E0FD84007B93CE /* MainViewControllerSpec.mm */; };
 		B9F6754B14E0FF75007B93CE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F674A414E0EEB7007B93CE /* MainViewController.xib */; };
 		B9F6754C14E0FF79007B93CE /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F674A014E0EEB7007B93CE /* FlipsideViewController.xib */; };
-		B9F6754E14E102D7007B93CE /* README in Resources */ = {isa = PBXBuildFile; fileRef = B9F6754D14E102D7007B93CE /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,8 +118,8 @@
 		B9F6753C14E0F503007B93CE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9F6753D14E0F503007B93CE /* UISpecs-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UISpecs-Info.plist"; sourceTree = "<group>"; };
 		B9F6754914E0FD84007B93CE /* MainViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainViewControllerSpec.mm; sourceTree = "<group>"; };
-		B9F6754D14E102D7007B93CE /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		B9F6754F14E10303007B93CE /* LICENSES */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSES; sourceTree = "<group>"; };
+		B9F6755014E1075F007B93CE /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,8 +157,8 @@
 				B9F6746614E0ECA0007B93CE /* Frameworks */,
 				B9F6746414E0ECA0007B93CE /* Products */,
 				B9F674A914E0EED0007B93CE /* CedarBoilerplate-Info.plist */,
-				B9F6754D14E102D7007B93CE /* README */,
 				B9F6754F14E10303007B93CE /* LICENSES */,
+				B9F6755014E1075F007B93CE /* README.markdown */,
 			);
 			sourceTree = "<group>";
 		};
@@ -427,7 +426,6 @@
 				B9F6754014E0F503007B93CE /* UISpecs-Info.plist in Resources */,
 				B9F6754B14E0FF75007B93CE /* MainViewController.xib in Resources */,
 				B9F6754C14E0FF79007B93CE /* FlipsideViewController.xib in Resources */,
-				B9F6754E14E102D7007B93CE /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
