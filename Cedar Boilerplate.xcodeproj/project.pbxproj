@@ -18,6 +18,12 @@
 		B9F674A714E0EEB7007B93CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9F674A214E0EEB7007B93CE /* InfoPlist.strings */; };
 		B9F674A814E0EEB7007B93CE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9F674A414E0EEB7007B93CE /* MainViewController.xib */; };
 		B9F674AA14E0EED0007B93CE /* CedarBoilerplate-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9F674A914E0EED0007B93CE /* CedarBoilerplate-Info.plist */; };
+		B9F6751414E0F3F9007B93CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F6746714E0ECA0007B93CE /* UIKit.framework */; };
+		B9F6751514E0F3F9007B93CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F6746914E0ECA0007B93CE /* Foundation.framework */; };
+		B9F6751614E0F3F9007B93CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F6746B14E0ECA0007B93CE /* CoreGraphics.framework */; };
+		B9F6753F14E0F503007B93CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F6753C14E0F503007B93CE /* main.m */; };
+		B9F6754014E0F503007B93CE /* UISpecs-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9F6753D14E0F503007B93CE /* UISpecs-Info.plist */; };
+		B9F6754114E0F592007B93CE /* libCedar-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F6750514E0F323007B93CE /* libCedar-StaticLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +83,13 @@
 			remoteGlobalIDString = 96158A86144A915E005895CE;
 			remoteInfo = OCUnitAppLogicTests;
 		};
+		B9F6754314E0F9CE007B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9F674EA14E0F322007B93CE /* Cedar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEE222811DC2B0600029872;
+			remoteInfo = "Cedar-StaticLib";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +109,9 @@
 		B9F674A514E0EEB7007B93CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainViewController.xib; sourceTree = "<group>"; };
 		B9F674A914E0EED0007B93CE /* CedarBoilerplate-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CedarBoilerplate-Info.plist"; sourceTree = "<group>"; };
 		B9F674EA14E0F322007B93CE /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = Cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
+		B9F6751214E0F3F9007B93CE /* UISpecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISpecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F6753C14E0F503007B93CE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9F6753D14E0F503007B93CE /* UISpecs-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UISpecs-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +125,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B9F6750F14E0F3F9007B93CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F6754114E0F592007B93CE /* libCedar-StaticLib.a in Frameworks */,
+				B9F6751414E0F3F9007B93CE /* UIKit.framework in Frameworks */,
+				B9F6751514E0F3F9007B93CE /* Foundation.framework in Frameworks */,
+				B9F6751614E0F3F9007B93CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -116,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				B9F6748F14E0EE0C007B93CE /* App */,
+				B9F6752614E0F4AC007B93CE /* Spec */,
 				B9F6749E14E0EE8F007B93CE /* Resources */,
 				B9F674E914E0F2B7007B93CE /* Externals */,
 				B9F6746614E0ECA0007B93CE /* Frameworks */,
@@ -128,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				B9F6746314E0ECA0007B93CE /* Cedar Boilerplate.app */,
+				B9F6751214E0F3F9007B93CE /* UISpecs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,6 +242,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B9F6752614E0F4AC007B93CE /* Spec */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6753914E0F4EE007B93CE /* UI */,
+			);
+			path = Spec;
+			sourceTree = "<group>";
+		};
+		B9F6753914E0F4EE007B93CE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6753C14E0F503007B93CE /* main.m */,
+				B9F6753D14E0F503007B93CE /* UISpecs-Info.plist */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,6 +277,24 @@
 			name = "Cedar Boilerplate";
 			productName = "Cedar Boilerplate";
 			productReference = B9F6746314E0ECA0007B93CE /* Cedar Boilerplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9F6751114E0F3F9007B93CE /* UISpecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9F6752314E0F3F9007B93CE /* Build configuration list for PBXNativeTarget "UISpecs" */;
+			buildPhases = (
+				B9F6750E14E0F3F9007B93CE /* Sources */,
+				B9F6750F14E0F3F9007B93CE /* Frameworks */,
+				B9F6751014E0F3F9007B93CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9F6754414E0F9CE007B93CE /* PBXTargetDependency */,
+			);
+			name = UISpecs;
+			productName = UISpecs;
+			productReference = B9F6751214E0F3F9007B93CE /* UISpecs.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -260,6 +324,7 @@
 			projectRoot = "";
 			targets = (
 				B9F6746214E0ECA0007B93CE /* Cedar Boilerplate */,
+				B9F6751114E0F3F9007B93CE /* UISpecs */,
 			);
 		};
 /* End PBXProject section */
@@ -335,6 +400,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B9F6751014E0F3F9007B93CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F6754014E0F503007B93CE /* UISpecs-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -349,7 +422,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B9F6750E14E0F3F9007B93CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F6753F14E0F503007B93CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9F6754414E0F9CE007B93CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cedar-StaticLib";
+			targetProxy = B9F6754314E0F9CE007B93CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B9F674A014E0EEB7007B93CE /* FlipsideViewController.xib */ = {
@@ -394,12 +483,14 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
+				WARNING_CFLAGS = "-Wno-idiomatic-parentheses";
 			};
 			name = Debug;
 		};
@@ -411,6 +502,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -419,6 +511,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = "-Wno-idiomatic-parentheses";
 			};
 			name = Release;
 		};
@@ -437,6 +530,40 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "CedarBoilerplate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B9F6752414E0F3F9007B93CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				HEADER_SEARCH_PATHS = "$SRCROOT/Externals/Cedar/**";
+				INFOPLIST_FILE = "Spec/UI/UISpecs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9F6752514E0F3F9007B93CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				HEADER_SEARCH_PATHS = "$SRCROOT/Externals/Cedar/**";
+				INFOPLIST_FILE = "Spec/UI/UISpecs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -462,6 +589,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		B9F6752314E0F3F9007B93CE /* Build configuration list for PBXNativeTarget "UISpecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F6752414E0F3F9007B93CE /* Debug */,
+				B9F6752514E0F3F9007B93CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
