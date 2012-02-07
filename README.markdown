@@ -1,6 +1,6 @@
 # Cedar Boilerplate
 
-The goal of this boilerplate is to provide a sample iOS project with [Pivotal's Cedar BDD testing framework](https://github.com/pivotal/cedar) already integrated. This will allow new developers to more easily learn the iOS BDD testing framework by providing code samples, and to allow other developers to quickly start their own projects and use Cedar from the beginning.
+The goal of this boilerplate is to provide a sample iOS project with [Pivotal's Cedar BDD-style testing framework](https://github.com/pivotal/cedar) already integrated. This will allow new developers to more easily learn the iOS BDD testing framework by providing code samples, and to allow other developers to quickly start their own projects and use Cedar from the beginning.
 
 This boilerplate was based on:
 * The cocoa touch utility application template
