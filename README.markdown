@@ -9,14 +9,15 @@ This boilerplate was based on:
 
 ## TODO
 
-* Setup the domain testing target
 * Provide example of shared example groups
 * Improve test coverage of FlipsideViewController and MainViewController
 * Cedar + OCUnit support, maybe?
+* Script to clean out all the example files for when the bp is used for a fresh new project
 
 ## TODONE
 
 * Setup the UI testing target
+* Setup the domain testing target
 
 ## Contributions and feedback
 
